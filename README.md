@@ -55,12 +55,26 @@ To manipulate the current opened file:
 - `<Ctrl>i` => jump to next cursor location
 - `<Ctrl>o` => jump to previous cursor location
 - `%` => go to matching openning/closing: `()[]{}<>`
+
+## panes and tabs
+
 - `gt` => go to next tab
 - `gT` => go to previous tab
 - `<Ctrl>w` + `h` => go to left pane
 - `<Ctrl>w` + `j` => go to down pane
 - `<Ctrl>w` + `k` => go to up pane
 - `<Ctrl>w` + `l` => go to right pane
+- `<Ctrl>w` + `H` => move current pane to left pane
+- `<Ctrl>w` + `J` => move current pane to down pane
+- `<Ctrl>w` + `K` => move current pane to up pane
+- `<Ctrl>w` + `L` => move current pane to right pane
+- `<Ctrl>w` + `w` => go to next pane inside the tab
+- `<Ctrl>w` + `o` => close all panes from current tab except current pane
+- `<Ctrl>w` + `r` => rotate panes inside current tab
+- `<Ctrl>w` + `T` => move current pane to a new tab
+- `<Ctrl>w` + `5+` => increase 5 lines height on current pane
+- `<Ctrl>w` + `5-` => decrease 5 lines height on current pane
+- `<Ctrl>w` + `=` => normalize pane sizes
 
 ## insert mode
 
