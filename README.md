@@ -52,6 +52,8 @@ To manipulate the current opened file:
 - `gg` => beginning of file
 - `G` => end of file
 - `:5` or `5G` => go to line 5
+- `<Ctrl>d` => half page down
+- `<Ctrl>u` => half page up
 - `<Ctrl>i` => jump to next cursor location
 - `<Ctrl>o` => jump to previous cursor location
 - `%` => go to matching openning/closing: `()[]{}<>`
