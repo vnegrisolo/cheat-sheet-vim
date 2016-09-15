@@ -167,6 +167,12 @@ To manipulate the current opened file:
 
 - `%s/foo/bar/gc` => find all `foo` and prompt for replace to `bar` in the whole file
 
+## spell
+
+- `z=` => see spell suggestions
+- `zg` => add to dictionary
+- `zug` => remove to dictionary
+
 ## commands
 
 - `:!ls` => execute shell command `ls`
