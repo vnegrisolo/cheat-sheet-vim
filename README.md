@@ -173,6 +173,11 @@ To manipulate the current opened file:
 - `zg` => add to dictionary
 - `zug` => remove to dictionary
 
+## collapse/expand code
+
+- `:set foldmethod=indent` => set fold strategy to follow indentation
+- `za` => toggle between collapse/expand
+
 ## commands
 
 - `:!ls` => execute shell command `ls`
